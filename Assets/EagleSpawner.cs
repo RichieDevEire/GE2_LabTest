@@ -15,12 +15,6 @@ public class EagleSpawner : MonoBehaviour
 			float angle = i * Mathf.PI * 2 / followers;
 			Vector3 pos = new Vector3(Mathf.Cos(angle),0, Mathf.Sin(angle)) * gap;
 			Instantiate(eagle, pos, Quaternion.identity);
+			}
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
-}
